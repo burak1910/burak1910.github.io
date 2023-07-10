@@ -16,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'burakhascelik@burakhascelik.com.tr'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'onep@burakhascelik.com.tr'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "website mesajı:  $name";
 $email_body = "websitesinden mesaj aldınız.\n\n"."detaylar:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@burakhascelik.com.tr\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
